@@ -1,9 +1,10 @@
 {
   "name": "compass-mixins",
-  "version": "0.12.6",
+  "version": "0.12.8",
   "authors": [
     "Guillaume Balaine <igosuki@gmail.com>",
-    "Michael Heillein <michaek>"
+    "Michael Heillein <michaek>",
+    "Wayne Theisinger <wayne@mowdirect.co.uk>
   ],
   "description": "Compass stylesheets",
   "main": "lib/_compass.scss",
