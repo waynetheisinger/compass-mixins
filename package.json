@@ -1,6 +1,6 @@
 {
   "name": "compass-mixins",
-  "version": "0.12.7",
+  "version": "0.12.8",
   "author": {
     "name": "Guillaume Balaine",
     "email": "igosuki@gmail.com",
@@ -10,12 +10,16 @@
     {
       "name": "Michael Heillein",
       "url": "https://github.com/michaek"
+    },
+    {
+      "name": "Wayne Theisinger",
+      "url": "https://github.com/waynetheisinger"
     }
   ],
   "description": "Compass stylesheets",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Igosuki/compass-mixins.git"
+    "url": "https://github.com/waynetheisinger/compass-mixins.git"
   },
   "main": "lib/_compass.scss",
   "keywords": [
