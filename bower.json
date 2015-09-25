@@ -1,6 +1,6 @@
 {
   "name": "md-compass-mixins",
-  "version": "0.12.8",
+  "version": "1.0.3",
   "authors": [
     "Guillaume Balaine <igosuki@gmail.com>",
     "Michael Heillein <michaek>",
@@ -23,13 +23,13 @@
     "tests"
   ],
   "homepage": "https://github.com/waynetheisinger/compass-mixins",
-  "_release": "0.12.7",
+  "_release": "1.0.3",
   "_resolution": {
     "type": "version",
-    "tag": "v0.12.7",
+    "tag": "v1.0.3",
     "commit": "8d93bef3e982cba3420bd16c04a99fabf4e3399e"
   },
   "_source": "https://github.com/waynetheisinger/compass-mixins.git",
-  "_target": "^0.12.6",
+  "_target": "^1.0.3",
   "_originalSource": "compass-mixins"
 }
