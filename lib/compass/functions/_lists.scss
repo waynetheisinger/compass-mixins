@@ -30,10 +30,12 @@
 
   $full: first-value-of($items);
 
-  @for $i from 2 through length($items) {
-    $item: nth($items, $i);
-    @if $item != null {
-      $full: $full $item;
+  @for $i from 1 through length($items) {
+    @if $i != 1 {
+      $item: nth($items, $i);
+      @if $item != null {
+        $full: $full $item;
+      }
     }
   }
 
@@ -79,11 +81,17 @@
 
 @if not(function-exists(compact)) {
   @function compact($vars...) {
+    $first: nth($vars, 1);
+    $sep: comma;
     $list: ();
+    @if length($vars) == 1 and type_of($first) == 'list' {
+      $vars: $first;
+      $sep: list-separator($vars);
+    }
     @each $var in $vars {
-        @if $var {
-            $list: append($list, $var, comma);
-        }
+      @if $var {
+        $list: append($list, $var, $sep);
+      }
     }
     @return $list;
   }

@@ -127,6 +127,9 @@ $transitionable-prefixed-values: transform, transform-origin !default;
   $function: $default-transition-function,
   $delay: $default-transition-delay
 ) {
+    @if $delay == 0  {$delay: null;}
+    @if $function == 0 {$function: null;}
+
   @include transition(compact($property $duration $function $delay));
 }
 
