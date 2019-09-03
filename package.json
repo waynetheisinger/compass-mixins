@@ -1,6 +1,6 @@
 {
   "name": "compass-mixins",
-  "version": "0.12.8",
+  "version": "0.12.10",
   "author": {
     "name": "Guillaume Balaine",
     "email": "igosuki@gmail.com",
@@ -10,10 +10,6 @@
     {
       "name": "Michael Heillein",
       "url": "https://github.com/michaek"
-    },
-    {
-      "name": "Wayne Theisinger",
-      "url": "https://github.com/waynetheisinger"
     }
   ],
   "description": "Compass stylesheets",
@@ -42,6 +38,6 @@
   "devDependencies": {
     "chalk": "^0.5.1",
     "jasmine-node": "^1.14.5",
-    "node-sass": "^2.0.0-beta"
+    "node-sass": "^3.4.2"
   }
 }
